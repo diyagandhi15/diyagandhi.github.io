@@ -317,7 +317,7 @@ section {
 }
 
 .section-container {
-    gap: 4rem;
+    gap: 15rem;
     flex: 1;
     height: 80%;
     display: flex;
