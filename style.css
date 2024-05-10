@@ -374,6 +374,15 @@ section {
     background-color: rgb(255,255,255);
 }
 
+.prbtn-container {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    align-items: center; /* Align items vertically */
+            
+    
+}
+
 .project-img {
     border-radius: 2rem;
     width: 90%;
@@ -388,6 +397,23 @@ section {
 .project-btn {
     color: black;
     border-color: rgb(163,163,163);
+}
+
+.project-containers {
+    display: flex;
+    overflow-x: auto; /* Enable horizontal scrolling */
+    overflow-y: hidden; /* Hide vertical scrollbar */
+    white-space: nowrap; /* Prevent wrapping */
+    gap: 2rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    flex-direction: row;
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+}
+
+.about-containers::-webkit-scrollbar {
+    display: none; /* Hide scrollbar for Chrome, Safari, and Opera */
 }
 
 /* CONTACT */
